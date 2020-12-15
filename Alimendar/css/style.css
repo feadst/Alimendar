@@ -1,0 +1,199 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/** Globales **/
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #434642;
+    font-size: 6rem;
+    max-width: 1200px;
+    width: 95%;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/** Utilidades **/
+
+.centrar-texto {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+
+/** Header **/
+
+.site-header {
+    background-image: url(../img/header.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.logo {
+    width: 20rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion {
+    padding-top: 30px;
+}
+
+.navegacion a {
+    color: hsla(0, 0%, 100%, 0.877);
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    transition: all .3s ease;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+.navegacion a:hover {
+    transform: scale(1.1);
+    /*not working*/
+    cursor: pointer;
+    color: #c2c2c2;
+}
+
+.texto-header {
+    text-align: center;
+    color: #434642;
+}
+
+.texto-header h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    text-shadow: 4px 4px #c2c2c2;
+    border-bottom: 2px solid #c2c2c2;
+    width: 70%;
+}
+
+
+/* Funcionamiento*/
+
+.funcionamiento {
+    text-align: center;
+    height: 25rem;
+}
+
+.funcionamiento h2 {
+    margin: 0 auto;
+    padding: 5rem 0 1rem 0;
+    border-bottom: 2px solid #fe4918;
+}
+
+
+/* Indicador */
+
+.indicador {
+    height: 25rem;
+    text-align: center;
+}
+
+.indicador h2 {
+    border-bottom: 2px solid #fe4918;
+}
+
+
+/* Rescates */
+
+.rescates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numero {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    color: #fe4918;
+}
+
+.rescates p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    color: #434642;
+}
+
+.rescatado {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    color: #434642;
+}
+
+#fecha-rescate {
+    color: #fe4918;
+}
+
+.cifra-total {
+    font-size: 8rem;
+    text-align: center;
+}
+
+
+/* Footer */
+
+.site-footer {
+    background-color: #434642;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.site-footer a:hover {
+    color: #fe4918;
+}
